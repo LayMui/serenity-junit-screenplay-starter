@@ -39,7 +39,7 @@ jobs:
       # notify via slack
       # - slack/status:
       #     fail_only: false
-      #     failure_message: "see latest report: ${your-s3-bucket}/index.html"
+      #     failure_message: "see latest report: https://serenitybdd.s3.eu-west-1.amazonaws.com/index.html/index.html"
       #     webhook: $SLACK_HOOK
 
 
