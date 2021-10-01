@@ -25,8 +25,8 @@ jobs:
       - run:
           name: "AWS environment variable?"
           command: |
-            echo ${aws_access_key_id}
-            echo ${aws_secret_access_key}
+            echo ${AWS_ACCESS_KEY_ID}
+            echo ${AWS_SECRET_ACCESS_KEY}
       - save_cache:
           paths:
             - ~/.m2
